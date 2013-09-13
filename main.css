@@ -1,0 +1,141 @@
+/* Основа CSS */
+body
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #555;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+}
+div
+{
+	margin: 0;
+	padding: 0;
+}
+div.clear
+{
+	clear: both;
+}
+img
+{
+	border: 0;
+}
+h1, h2, h3
+{
+	font-family: "Open Sans", sans;
+	font-weight: 300;
+	margin: 0.25em;
+}
+h1 { font-size: 20px; }
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+a, a:visited
+{
+	color: #333;
+}
+a:active, a:hover
+{
+	color: #555;
+	text-decoration: none;
+}
+#header
+{
+	background: #333;
+	color: #eee;
+	padding: 1em 0;
+	overflow: hidden;
+}
+#header #ie-warning
+{
+	text-align: center;
+	background: #660000;
+}
+#header #logo
+{
+	text-align: center;
+	padding: 0;
+}
+#header #logo h1
+{
+	padding: 0 0.5em;
+}
+#header #menu
+{
+	text-align: center;
+	padding-bottom: 0;
+}
+#header #menu ul
+{
+	padding-left: 0;
+}
+#header #menu ul li
+{
+	list-style-type: none;
+	padding: 5px;
+}
+#header #menu ul li a, #header #menu ul li a:visited, #footer a, #footer a:visited
+{
+	color: #ddd;
+}
+#header #menu ul li a:active, #header #menu ul li a:hover, #footer a:active, #footer a:hover
+{
+	color: #bbb;
+	text-decoration: none;
+}
+#main
+{
+	background: #fff;
+	padding: 5px;
+}
+#main #col-left
+{
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+#footer
+{
+	padding: 5px;
+	color: #fff;
+	background: #555;
+	text-align: center;
+}
+/* Ширина страницы >= 768 пикселей, для десктопов */
+@media screen and (min-width:768px)
+{
+	#header #logo
+	{
+		text-align: left;
+	}
+	#header #menu
+	{
+		text-align: left;
+		padding-bottom: 5px;
+	}
+	#header #menu ul
+	{
+		padding-left: 2em;
+	}
+	#header #menu ul li
+	{
+		display: inline;
+		float: left;
+	}
+	#main
+	{
+		background: #fff;
+	}
+	#main #col-left
+	{
+		overflow: hidden;
+		width: 20%;
+		float: left;
+		margin-right: 5px;
+		padding-bottom: 0;
+		border-bottom: 0;
+	}
+	#main #col-content
+	{
+		overflow: hidden;
+	}
+}
