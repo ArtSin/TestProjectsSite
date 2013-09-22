@@ -63,7 +63,7 @@ function GetPage()
 			<h2>Ссылки</h2>
 			<ul>
 				<li><a href="https://github.com/ArtSin/TestProjects">Репозиторий на GitHub</a></li>
-				<li><a href="https://github.com/ArtSin/artsin.github.io">Репозиторий сайта на GitHub</a></li>
+				<li><a href="https://github.com/ArtSin/TestProjectsSite">Репозиторий сайта на GitHub</a></li>
 			</ul>
 		</div>
 		<div id="col-content">
