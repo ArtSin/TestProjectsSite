@@ -29,7 +29,7 @@ function GetPage()
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css" />
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
-<link href="http://agorbatchev.typepad.com/pub/sh/3_0_83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+<link href="syntaxhighlighter/shThemeDefault.css" rel="stylesheet" type="text/css" />
 <script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shCore.js" type="text/javascript"></script>
 <script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shAutoloader.js" type="text/javascript"></script>
 
